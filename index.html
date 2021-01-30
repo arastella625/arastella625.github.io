@@ -25,14 +25,18 @@
           
            #banner {
                 max-width: 700px;
-                margin:auto;
+                display: inline;
+                margin: auto;
                 vertical-align:center;
-                position: absolute;
+                position: fixed;
            }
            #buttons {
-                max-width: 700px;
+                max-width: 200px;
+                border: 15px solid purple;
+                padding:50px;
                 margin: auto;
-                float: left;       
+                float: left;
+                display: inline block;
            } 
           
       </style> 
@@ -40,8 +44,8 @@
   </head>
   <body>
          
- <img id="banner" src="banner.png"
-      align="middle">
+ <img id="banner" src="banner.png">
+    
    
    <div id="buttons">   
         <table>
