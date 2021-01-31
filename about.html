@@ -1,35 +1,77 @@
-<!DOCUTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>About Me</title>
-         </head>
-    <body> 
-        <img src="unnamed.jpg"
-      align="right">
-          
-    <table>
-     <a href="index.html"><img src="Home.png"
-         align="left"></a>   
- <table>
-     <a href="javascripts.html"><img src="Javascripts.png"></a>
-      </table>
- <table>
-     <a href="about.html"><img src="Aboutme.png"></a>   
-      </table>
-      
-    
-    <h1>Welcome To Amber's Programming Portfolio</h1>
-      
+      <style>
+          body { 
+                background-image: url('my background.png');
+          }
+           #beginning {
+                color:white;
+                font-family: cursive;
+                text-align:center;
+                display:inline-block;
+                margin-left:20px;
+           }
+           #first_p {
+                color:white;
+                font-family:sans-serif;
+                text-align:top;
+                line height:1.5;
+                margin-left:20px;
+                display:inline-block;
+                font-size:20px;
+                max-width:650px;
+               
+           }
+           #banner {
+                max-width: 700px;
+                position: relative;
+                left: 20px;
+                right:0;
+                margin: auto;
+           }
+           #buttons {
+                max-width: 200px;
+                border: 15px solid purple;
+                padding:50px;
+                margin: auto;
+                float: left;
+                display: inline block;
+           } 
+      </style> 
+            
+  </head>
+  <body>
+         
+ <img id="banner" src="banner.png">
+
+   <div id="buttons">   
+        <table>
+       <a href="index.html"><img id="home" src="homebutton.png"></a>
+       </table>
+       <table>
+       <a href="about.html"><img id="aboutme" src="aboutmebutton.png"></a>
+       </table>
+       <table>
+       <a href="javascripts.html"><img id="java" src="javabutton.png"></a>
+       </table>
+       <table>
+       <a href="applications.html"><img id="apps" src="appsbutton.png"></a>
+       </table>
+   </div>
+  
+      <h1 id="beginning">Welcome To Amber's Programming Portfolio!</h1><br>
         <h3>About Me</h3>
-<p>
+          <p id="first_p">
     Hello, my name is Amber Rastella and I am currently a Junior majoring in Computer Science<br> 
     with a minor in Cybersecurity at University of Rhode Island. My hope is to joing the accelerated<br>
     Bachelor's to Master's program in Cybersecurity. I am currently in the National Guard and will<br>
     probably work federally once I graduate. The small work I have done so far here creating my first<br>
     website has been exciting and I cannot wait for everything else I will get to learn during my time<br>
-    at URI and in this major.</p> 
-        
-        
-          </body>
+    at URI and in this major.
+              </p> 
+   
+    </body>
 </html>
