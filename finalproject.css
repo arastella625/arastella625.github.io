@@ -1,0 +1,14 @@
+body { background-image: url("https://miro.medium.com/max/10514/1*TG8yT-bltiG0FcRpx3YkRA.jpeg") ;
+}
+#nav-table { width: 1016px; }
+
+#nav-td {width: 254px; text-align:center;}
+
+h1 {
+  color: white;
+}
+
+p { 
+  width: 1016px; text-align:center;
+  color: white;
+}
